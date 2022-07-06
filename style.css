@@ -1,0 +1,63 @@
+body {
+  background-image: url("back.jpg");
+  height: 2000px;
+}
+
+h1 {
+  text-align: center;
+  color: navy;
+  font-family: Cursive;
+}
+section h1 {
+  text-align: center;
+  color: navy;
+  font-family: Cursive;
+}
+p.left {
+  text-align: left;
+  color: red;
+  text-align: justify;
+}
+nav {
+  display: inline;
+}
+footer {
+  text-align: center;
+  color: red;
+}
+p {
+  margin: 50px;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: justify;
+}
+a {
+  float: left;
+}
+a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav a {
+  display: block;
+  padding: 20px;
+  background-color: #ffffff;
+}
+nav a:hover:not(.active) {
+  background-color: rgb(255, 255, 255);
+}
+
+.active {
+  background-color: #012ca3;
+}
+
+h4 > p {
+  font-family: Verdana, sans-serif;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 30px;
+}
